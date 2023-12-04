@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('pexels-rdne-stock-project-7249191.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #f4f4f4; /* Default background color if the image is not loaded */
+    font-size: xx-large;
+
+}
+
+.container {
+    text-align: center;
+    margin-top: 50px;
+    display: grid;
+    gap: 5px;
+    margin: 14px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 2fr 2fr 1fr;
+    grid-template-areas: 
+        "header header header"
+        "sidebar main main"
+        "sidebar section content"
+        "footer footer footer";
+    direction: rtl; /* Right-to-left text direction */
+    
+}
+
+.header {
+    grid-area: header;
+    text-align: right;
+    padding: 20px;
+    font-size: xx-large;
+
+}
+
+#timetable {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #cb1f1f;
+    font-size: xx-large;
+    color:rgb(226, 15, 212);
+
+    /* Adjust font size and other styles as needed */
+}
+
+#options {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    color: aqua;
+    /* font-size: x-large; */
+
+    /* Adjust width and other styles as needed */
+}
+
+select {
+    padding: 5px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: x-large;
+    /* Adjust styles as needed */
+}
