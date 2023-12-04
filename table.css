@@ -42,10 +42,10 @@ body {
 
 #timetable {
     margin-top: 20px;
-    padding: 10px;
-    border: 1px solid #cb1f1f;
+    padding: 50px;
+    border: 1px solid #ea79dc;
     font-size: xx-large;
-    color:rgb(226, 15, 212);
+    color:rgb(122, 4, 146);
 
     /* Adjust font size and other styles as needed */
 }
